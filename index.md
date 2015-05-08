@@ -22,7 +22,7 @@ Dartのオフィシャルサイトは[こちら](https://www.dartlang.org/)
 
 Dartに関する質問やユーザー会への意見、要望、その他のためのメーリングリストがあります。
 
-[Googleグループ](https://groups.google.com/forum/#!forum/dartisans-jp)
+[Googleグループ](https://groups.google.com/forum/#!forum/dartlang-users-jp)
 
 ### 外部サイト
 
