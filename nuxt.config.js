@@ -17,7 +17,7 @@ module.exports = {
       {
         rel: 'stylesheet',
         type: 'text/css',
-        href: 'http://fonts.googleapis.com/css?family=Montserrat'
+        href: '//fonts.googleapis.com/css?family=Montserrat'
       }
     ]
   },
