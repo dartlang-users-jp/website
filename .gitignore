@@ -1,12 +1,11 @@
-_site/*
-_theme_packages/*
+# dependencies
+node_modules
 
-Thumbs.db
-.DS_Store
+# logs
+npm-debug.log
 
-!.gitkeep
+# Nuxt build
+.nuxt
 
-.rbenv-version
-.rvmrc
-
-.idea/
+# Nuxt generate
+dist

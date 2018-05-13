@@ -1,8 +1,22 @@
-# 記事の作成
+# dartisans-jp
 
-`rake post`
+> website for dartisans.jp
 
-コマンドを実行すると、`_posts`フォルダに新しい.mdファイルが作成されます。
-記事のファイル名は先頭の`YYYY-MM-DD-`部分を変えないようにして、内容に沿って変更してください
+## Build Setup
 
-例：`2015-05-08-hello-dart.md`
+``` bash
+# install dependencies
+$ npm install # Or yarn install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
