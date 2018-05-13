@@ -21,32 +21,33 @@ html {
   margin: 0;
 }
 
-.button--green {
+.button--primary {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
+  border: 1px solid #2cc29f;
+  color: #fff;
+  background-color: #2cc29f;
   text-decoration: none;
   padding: 10px 30px;
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+.button--primary:hover {
+  border: 1px solid #6fc2ae;
+  background-color: #6fc2ae;
 }
 
-.button--grey {
+.button--secondary {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
+  border: 1px solid #788694;
+  background: #788694;
+  color: #ffffff;
   text-decoration: none;
   padding: 10px 30px;
-  margin-left: 15px;
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.button--secondary:hover {
+  border: 1px solid #8c9197;
+  background-color: #8c9197;
 }
 </style>

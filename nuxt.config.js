@@ -3,14 +3,22 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'dartisans-jp',
+    title: 'Dartlang Users JP',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'website for dartisans.jp' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Dartlang Users JPは、Dartを愛する日本の開発者のためのコミュニティです。'
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'http://fonts.googleapis.com/css?family=Montserrat'
+      }
     ]
   },
   /*
@@ -24,15 +32,15 @@ module.exports = {
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
+    extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
           exclude: /(node_modules)/
-        })
+        });
       }
     }
   }
-}
+};
