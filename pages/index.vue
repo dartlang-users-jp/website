@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <!-- <app-logo/> -->
+      <app-logo/>
       <h1 class="title">
         Dartlang Users JP
       </h1>
@@ -43,27 +43,26 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(45deg, rgb(0, 132, 197) 0px, rgb(4, 137, 195) 36%, rgb(48, 202, 191) 66%, rgb(47, 188, 178) 100%);
 }
 
 .title {
   display: block;
   font-weight: 300;
   font-size: 64px;
-  color: #ffffff;
+  color: #313030;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 24px;
-  color: #ffffff;
+  color: #313030;
   padding-bottom: 15px;
 }
 
 .description {
   font-weight: 300;
   font-size: 16px;
-  color: #ffffff;
+  color: #313030;
 }
 
 @media (min-width: 600px) {

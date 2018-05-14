@@ -15,6 +15,11 @@ module.exports = {
     ],
     link: [
       {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      },
+      {
         rel: 'stylesheet',
         type: 'text/css',
         href: '//fonts.googleapis.com/css?family=Montserrat'
