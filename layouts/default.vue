@@ -24,16 +24,16 @@ html {
 .button--primary {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #2cc29f;
+  border: 1px solid #0175C2;
   color: #fff;
-  background-color: #2cc29f;
+  background-color: #0175C2;
   text-decoration: none;
   padding: 10px 30px;
 }
 
 .button--primary:hover {
-  border: 1px solid #6fc2ae;
-  background-color: #6fc2ae;
+  border: 1px solid #13B9FD;
+  background-color: #13B9FD;
 }
 
 .button--secondary {
